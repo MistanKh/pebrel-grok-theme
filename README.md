@@ -1,31 +1,38 @@
-# Grok Theme for Pebrel
+# Grok Themes for Pebrel
 
-Two Pebrel themes built around a restrained graphite/ivory palette: near-black
-chrome, warm text, and one desaturated steel accent. Both are colors-only and
-use the native Pebrel theme format.
+Two Pebrel themes built from the same graphite and ivory palette as the Zed and
+Oh My Pi versions. Both are colors-only packages in Pebrel's native theme format.
 
-- **Grok Obsidian** — dark. Chrome sits at `#0C0C0C`, terminal at `#101010`.
-- **Grok Parchment** — light. Warm paper chrome with the same muted syntax palette.
+- **Grok Obsidian** — dark. Chrome at `#0C0C0C`, terminal at `#101010`, with an
+  extra-dark tabs pane.
+- **Grok Parchment** — light. Neutral paper chrome with the same muted syntax
+  palette.
 
 ![Grok Obsidian](previews/grok-obsidian.png)
 
 ![Grok Parchment](previews/grok-parchment.png)
 
-## Install
+## Installation
 
-Once listed in the Pebrel Community catalog:
+The themes are submitted to the Pebrel Community catalog
+([PR #3](https://github.com/pebrel-community/themes/pull/3)). Once merged:
 
 1. Open **Settings → Appearance → Community themes**.
 2. Install **Grok Obsidian** or **Grok Parchment**.
-3. Select it from the theme picker.
+3. Select the theme in the Appearance picker.
 
-Manual install from a release ZIP:
+### Manual Install
+
+Download the versioned ZIP from the
+[latest release](https://github.com/MistanKh/pebrel-grok-theme/releases/latest),
+then import it:
 
 ```sh
 pebrel theme import grok-obsidian.pebrel-theme.zip
+pebrel theme import grok-parchment.pebrel-theme.zip
 ```
 
-Then choose the theme in **Settings → Appearance**.
+Select the installed theme under **Settings → Appearance**.
 
 ## Palette
 
@@ -42,27 +49,47 @@ Then choose the theme in **Settings → Appearance**.
 | Type | `#9DBFB6` | `#2F5F5A` |
 | Number | `#C7A9A0` | `#8A5A52` |
 
-The dark theme keeps the left tabs pane one step darker than the terminal, like
-the reference Grok shell. `ui.background` controls the chrome; `ui.sidebar`
-controls tab-card surfaces.
-
-Tested with Pebrel 2.4.0 on Windows 11 (x64). Colors-only; no shaders,
-wallpapers, or external resources.
+The dark theme keeps the chrome darker than the terminal, matching the reference
+Grok shell. `ui.background` controls the chrome; `ui.sidebar` controls tab-card
+surfaces. Both variants are colors-only: no shaders, wallpapers, videos, or
+external resources.
 
 ## Build
 
-Requires Pebrel's `theme` command:
+The repository contains the source theme documents and the portable packages are
+built with Pebrel's own tooling:
 
 ```sh
-pebrel theme pack --output dist/grok-obsidian.pebrel-theme.zip \
-  --author MistanKh --license MIT themes/grok-obsidian.pebrel-theme.json
+pebrel theme pack \
+  --output dist/grok-obsidian.pebrel-theme.zip \
+  --author MistanKh \
+  --license MIT \
+  themes/grok-obsidian.pebrel-theme.json
 
 pebrel theme check dist/grok-obsidian.pebrel-theme.zip
 ```
 
-Release assets follow the Community catalog contract: a versioned tag with
-`.pebrel-theme.zip` files.
+The community catalog expects a versioned tag with `.pebrel-theme.zip` assets;
+the `v1.0.0` release contains both variants.
+
+## Validation
+
+- Both variants pass `pebrel theme check`.
+- Tested with Pebrel 2.4.0 on Windows 11 (x64).
+- Release archive sizes and SHA-256 values are pinned in the community catalog
+  submission.
+
+## Repository Layout
+
+```text
+themes/grok-obsidian.pebrel-theme.json
+themes/grok-parchment.pebrel-theme.json
+previews/grok-obsidian.png
+previews/grok-parchment.png
+README.md
+LICENSE
+```
 
 ## License
 
-MIT. Unofficial theme, not affiliated with xAI.
+MIT. Independent and unofficial; not affiliated with xAI.
