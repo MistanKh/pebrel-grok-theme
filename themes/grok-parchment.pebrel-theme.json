@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "builtin": false,
+  "id": "grok-parchment",
+  "name": "Grok Parchment",
+  "appearance": "light",
+  "terminal": {
+    "background": "#FBFBF9",
+    "foreground": "#242422",
+    "cursor": "#4C6478",
+    "cursor_text": "#FBFBF9",
+    "cursor_stroke": "#FBFBF9",
+    "selection_background": "#DCE4EA",
+    "selection_foreground": "#242422",
+    "palette": [
+      "#2A2A28",
+      "#9A4E48",
+      "#3F6B4A",
+      "#7A6A3F",
+      "#4C6478",
+      "#6B4E68",
+      "#3C6B65",
+      "#686866",
+      "#575753",
+      "#B5635C",
+      "#4F825B",
+      "#96834F",
+      "#5F7E96",
+      "#866480",
+      "#4C857D",
+      "#242422"
+    ]
+  },
+  "ui": {
+    "derive": false,
+    "background": "#F4F3F0",
+    "sidebar": "#EFEEEB",
+    "foreground": "#242422",
+    "muted": "#686866",
+    "accent": "#4C6478",
+    "border": "#DAD9D4FF",
+    "selected": "#DCE4EAFF",
+    "frame": "#E7E6E1",
+    "success": "#3F6B4A",
+    "warning": "#7A6A3F",
+    "danger": "#9A4E48",
+    "info": "#4C6478"
+  },
+  "typography": {
+    "enabled": false,
+    "font_family": null,
+    "font_size": null,
+    "font_weight": null,
+    "line_height": null,
+    "letter_spacing": null,
+    "ligatures": true,
+    "ui_font_family": null,
+    "ui_font_size": null
+  },
+  "layout": {
+    "padding_x": null,
+    "padding_y": null,
+    "radius": 0,
+    "gutter": 0,
+    "shadow": false,
+    "divider_width": 1
+  },
+  "effects": {
+    "material": "solid",
+    "blur": null,
+    "opacity": null,
+    "background_image": null,
+    "background_media_kind": null,
+    "background_image_opacity": null,
+    "background_image_fit": null,
+    "background_image_alignment": null,
+    "background_image_cover_chrome": null,
+    "cursor_shape": null
+  },
+  "metadata": {
+    "base": "Nebula"
+  },
+  "extensions": {}
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "builtin": false,
+  "id": "grok-obsidian",
+  "name": "Grok Obsidian",
+  "appearance": "dark",
+  "terminal": {
+    "background": "#101010",
+    "foreground": "#E6E4DF",
+    "cursor": "#A9BCCB",
+    "cursor_text": "#101010",
+    "cursor_stroke": "#101010",
+    "selection_background": "#283038",
+    "selection_foreground": "#F2F0EB",
+    "palette": [
+      "#1A1A1A",
+      "#C08A85",
+      "#93AF97",
+      "#C2B086",
+      "#8FA9C0",
+      "#B49BB0",
+      "#8AAFA9",
+      "#E6E4DF",
+      "#3A3A3A",
+      "#D6A09A",
+      "#AEC9B1",
+      "#D8C79B",
+      "#AAC2D6",
+      "#CBB2C7",
+      "#A5C9C2",
+      "#FFFFFF"
+    ]
+  },
+  "ui": {
+    "derive": false,
+    "background": "#0C0C0C",
+    "sidebar": "#131313",
+    "foreground": "#E6E4DF",
+    "muted": "#9A9892",
+    "accent": "#A9BCCB",
+    "border": "#2A2A2AFF",
+    "selected": "#262B30FF",
+    "frame": "#1A1A1A",
+    "success": "#93AF97",
+    "warning": "#C2B086",
+    "danger": "#C98F87",
+    "info": "#8FA9C0"
+  },
+  "typography": {
+    "enabled": false,
+    "font_family": null,
+    "font_size": null,
+    "font_weight": null,
+    "line_height": null,
+    "letter_spacing": null,
+    "ligatures": true,
+    "ui_font_family": null,
+    "ui_font_size": null
+  },
+  "layout": {
+    "padding_x": null,
+    "padding_y": null,
+    "radius": 0,
+    "gutter": 0,
+    "shadow": false,
+    "divider_width": 1
+  },
+  "effects": {
+    "material": "solid",
+    "blur": null,
+    "opacity": null,
+    "background_image": null,
+    "background_media_kind": null,
+    "background_image_opacity": null,
+    "background_image_fit": null,
+    "background_image_alignment": null,
+    "background_image_cover_chrome": null,
+    "cursor_shape": null
+  },
+  "metadata": {
+    "base": "Nebula"
+  },
+  "extensions": {}
+}
