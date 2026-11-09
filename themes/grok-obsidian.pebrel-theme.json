@@ -6,11 +6,11 @@
   "name": "Grok Obsidian",
   "appearance": "dark",
   "terminal": {
-    "background": "#121212",
+    "background": "#141414",
     "foreground": "#C9C3B7",
     "cursor": "#A9BCCB",
-    "cursor_text": "#121212",
-    "cursor_stroke": "#121212",
+    "cursor_text": "#141414",
+    "cursor_stroke": "#141414",
     "selection_background": "#283038",
     "selection_foreground": "#DDD7CC",
     "palette": [
