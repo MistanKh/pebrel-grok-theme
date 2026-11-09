@@ -40,8 +40,9 @@ Select the installed theme under **Settings → Appearance**.
 | --- | --- | --- |
 | Chrome / sidebar | `#0C0C0C` | `#F4F3F0` |
 | Tab cards | `#131313` | `#EFEEEB` |
-| Terminal | `#101010` | `#FBFBF9` |
-| Text / muted | `#E6E4DF` / `#9A9892` | `#242422` / `#686866` |
+| Terminal | `#121212` | `#FBFBF9` |
+| Terminal text | `#D6D0C4` | `#242422` |
+| UI text / muted | `#E6E4DF` / `#9A9892` | `#242422` / `#686866` |
 | Accent, cursor | `#A9BCCB` | `#4C6478` |
 | Keyword | `#A6B8C6` | `#4C6478` |
 | Function | `#D4C8B4` | `#4E6A5A` |
@@ -51,8 +52,9 @@ Select the installed theme under **Settings → Appearance**.
 
 The dark theme keeps the chrome darker than the terminal, matching the reference
 Grok shell. `ui.background` controls the chrome; `ui.sidebar` controls tab-card
-surfaces. Both variants are colors-only: no shaders, wallpapers, videos, or
-external resources.
+surfaces. The terminal text is intentionally softened to `#D6D0C4`; UI text
+remains `#E6E4DF`. Both variants are colors-only: no shaders, wallpapers, videos,
+or external resources.
 
 ## Build
 

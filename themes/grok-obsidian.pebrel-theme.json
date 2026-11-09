@@ -6,13 +6,13 @@
   "name": "Grok Obsidian",
   "appearance": "dark",
   "terminal": {
-    "background": "#101010",
-    "foreground": "#E6E4DF",
+    "background": "#121212",
+    "foreground": "#D6D0C4",
     "cursor": "#A9BCCB",
-    "cursor_text": "#101010",
-    "cursor_stroke": "#101010",
+    "cursor_text": "#121212",
+    "cursor_stroke": "#121212",
     "selection_background": "#283038",
-    "selection_foreground": "#F2F0EB",
+    "selection_foreground": "#E8E2D8",
     "palette": [
       "#1A1A1A",
       "#C08A85",
@@ -21,7 +21,7 @@
       "#8FA9C0",
       "#B49BB0",
       "#8AAFA9",
-      "#E6E4DF",
+      "#D6D0C4",
       "#3A3A3A",
       "#D6A09A",
       "#AEC9B1",
@@ -29,7 +29,7 @@
       "#AAC2D6",
       "#CBB2C7",
       "#A5C9C2",
-      "#FFFFFF"
+      "#E8E2D8"
     ]
   },
   "ui": {
